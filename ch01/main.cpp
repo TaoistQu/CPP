@@ -11,7 +11,7 @@ namespace studentInfo{
 }
 
 int main() {
-    cout << "Hello, World!" << endl;
+
     MySpace::fun();
     MySpace::f2(100);
     namespace stu = studentInfo;
