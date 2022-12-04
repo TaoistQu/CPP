@@ -2,7 +2,7 @@
 // Created by ql on 2022/12/1.
 //
 #include <iostream>
-#include "../include/teacher.h"
+#include "teacher.h"
 
 using namespace std;
 /**

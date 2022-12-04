@@ -1,6 +1,7 @@
 #include <iostream>
-#include "include/teacher.h"
-#include "include/default_value.h"
+#include "teacher.h"
+#include "default_value.h"
+#include "overload.h"
 using namespace std;
 
 #define Max(a,b) (a)>(b) ? (a):(b)
@@ -54,5 +55,9 @@ int main() {
     cout << test(12,34) *10 << endl;
     cout << testInline(10,20) << endl;
     cout<< test_default(2) <<endl;
+    func();
+    func(3);
+    func(3.14f);
+    func('a');
    return 0;
 }
