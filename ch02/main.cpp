@@ -1,5 +1,6 @@
 #include <iostream>
 #include "include/teacher.h"
+#include "include/default_value.h"
 using namespace std;
 
 #define Max(a,b) (a)>(b) ? (a):(b)
@@ -52,5 +53,6 @@ int main() {
     cout << ADD(12,23) *10 << endl; // cout << 12 +23*10 << endl
     cout << test(12,34) *10 << endl;
     cout << testInline(10,20) << endl;
+    cout<< test_default(2) <<endl;
    return 0;
 }

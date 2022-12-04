@@ -3,4 +3,4 @@ project(ch02)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ch02 main.cpp scr/teacher.cpp include/teacher.h)
+add_executable(ch02 main.cpp scr/teacher.cpp include/teacher.h include/default_value.h scr/default_value.cpp)
