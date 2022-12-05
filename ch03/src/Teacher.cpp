@@ -10,3 +10,10 @@ using namespace std;
 Teacher::Teacher() {
     cout << "Teacher()" << endl;
 }
+
+Teacher::Teacher(int len,int w,int h) {
+    _len = len;
+    _w = w;
+    _h = h;
+    cout << "Teacher(int len,int w,int h)"<<endl;
+}

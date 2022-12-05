@@ -14,6 +14,7 @@ private:
 
 public:
     Teacher();
+    Teacher(int len,int w,int h);
 
 };
 

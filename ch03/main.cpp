@@ -49,6 +49,7 @@ int main() {
     cout << b.get_s() << endl;
 
     Teacher t,t1;
+    Teacher t2(1,2,3);
 
     return 0;
 }
