@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 #include "Box.h"
+#include "Teacher.h"
 
 using namespace std;
 class CAnimal{
@@ -12,7 +13,7 @@ public:
         cout << name <<": "<< voice <<endl;
     }
 };
-
+/*
 class Teacher{
 public:
     char name[32];
@@ -25,7 +26,7 @@ private:
     }
 
 };
-
+*/
 
 
 int main() {
@@ -46,6 +47,8 @@ int main() {
     b.set_len(10);
     b.set_w(10);
     cout << b.get_s() << endl;
+
+    Teacher t,t1;
 
     return 0;
 }
