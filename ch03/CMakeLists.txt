@@ -2,5 +2,6 @@ cmake_minimum_required(VERSION 3.23)
 project(ch03)
 
 set(CMAKE_CXX_STANDARD 11)
+include_directories(include)
 
-add_executable(ch03 main.cpp)
+add_executable(ch03 main.cpp include/Box.h src/Box.cpp)

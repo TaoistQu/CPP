@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include "Box.h"
 
 using namespace std;
 class CAnimal{
@@ -24,6 +25,9 @@ private:
     }
 
 };
+
+
+
 int main() {
     CAnimal cat;
     CAnimal cats[10];
@@ -36,5 +40,12 @@ int main() {
     memset(cat.name,0,sizeof(cat.name));
     strcpy(cat.name,"小花");
     p->jiao("喵喵");
+
+
+    Box b;
+    b.set_len(10);
+    b.set_w(10);
+    cout << b.get_s() << endl;
+
     return 0;
 }
