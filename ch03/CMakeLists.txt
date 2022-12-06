@@ -4,4 +4,4 @@ project(ch03)
 set(CMAKE_CXX_STANDARD 11)
 include_directories(include)
 
-add_executable(ch03 main.cpp include/Box.h src/Box.cpp src/Teacher.cpp include/Teacher.h src/CAnimal.cpp include/CAnimal.h)
+add_executable(ch03 main.cpp include/Box.h src/Box.cpp src/Teacher.cpp include/Teacher.h src/CAnimal.cpp include/CAnimal.h include/new_delete.h src/new_delete.cpp)
