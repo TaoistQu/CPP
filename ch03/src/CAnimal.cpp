@@ -15,6 +15,10 @@ CAnimal::CAnimal(int sex, int age):_sex(sex),age(age),p(sex),sum(100){
     cout << sex << endl;
 }
 
+CAnimal::~CAnimal() {
+    cout << "析构函数" << endl;
+}
+
 int CAnimal::get_age() {
     return age;
 }

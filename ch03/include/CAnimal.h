@@ -19,6 +19,7 @@ public:
 
     int get_sex();
     int get_age();
+    ~CAnimal();
 };
 
 

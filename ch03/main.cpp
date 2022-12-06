@@ -17,6 +17,7 @@ int main() {
     Teacher t,t1;
     Teacher t2(1,2,3);
     CAnimal cat(1,2);
+    cout << cat.get_age() << endl;
 
 
     return 0;
