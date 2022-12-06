@@ -4,7 +4,9 @@
 
 #include "CAnimal.h"
 #include <iostream>
-
+#include <cstring>
+#include <cstdio>
+#include <cstdlib>
 using namespace std;
 
 CAnimal::CAnimal(int sex, int age):_sex(sex),age(age),p(sex),sum(100){
@@ -13,10 +15,15 @@ CAnimal::CAnimal(int sex, int age):_sex(sex),age(age),p(sex),sum(100){
     cout << sum << endl;
     cout << p << endl;
     cout << sex << endl;
+    name = (char *)malloc(32);
+    my = new char [32];
 }
 
 CAnimal::~CAnimal() {
     cout << "析构函数" << endl;
+    if(name != NULL)
+    free(name);
+    delete [] my;
 }
 
 int CAnimal::get_age() {

@@ -8,6 +8,8 @@
 
 class CAnimal {
 private:
+    char *name;
+    char *my;
     int _sex;
     int age;
     int &p;
