@@ -4,6 +4,7 @@
 #include "Teacher.h"
 #include "CAnimal.h"
 #include "new_delete.h"
+#include "MyD.h"
 
 using namespace std;
 
@@ -20,6 +21,7 @@ int main() {
     CAnimal cat(1,2);
     //cout << cat.get_age() << endl;
     test();
+    MyD myD;
 
 
     return 0;
