@@ -6,6 +6,7 @@
 #include "new_delete.h"
 #include "MyD.h"
 #include "Test.h"
+#include "Sheep.h"
 
 using namespace std;
 
@@ -26,7 +27,7 @@ int main() {
 
     */
 
-
+/*
     Test test1(10,20);
     test1.sum[0] = 100;
     test1.sum[1] = 101;
@@ -41,9 +42,16 @@ int main() {
 //
    cout << "test2.x: " << test2.x << endl;
 //    cout << "test2.y: " << test2.y << endl;
-//    cout << "test2.sum: " << test2.sum << endl;
-//    cout << "test1.sum: " << test1.sum << endl;
-
-
+    cout << "test2.sum: " << test2.sum << endl;
+    cout << "test1.sum: " << test1.sum << endl;\
+    for(int  i = 0;i <4 ;i++)
+    cout << test2.sum[i] << endl;
+*/
+    Sheep *p = new Sheep[10];
+    Sheep s1;
+    cout << Sheep::cnt << endl;
+    cout << sizeof(Sheep) << endl;
+    cout << Sheep::cnt << endl;
+    delete[] p;
     return 0;
 }
