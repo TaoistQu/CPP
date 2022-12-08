@@ -53,5 +53,7 @@ int main() {
     cout << sizeof(Sheep) << endl;
     cout << Sheep::cnt << endl;
     delete[] p;
+    cout << Sheep::sheep_num() << endl;
+    cout << s1.sheep_num() << endl;
     return 0;
 }
