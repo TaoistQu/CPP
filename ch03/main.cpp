@@ -7,6 +7,7 @@
 #include "MyD.h"
 #include "Test.h"
 #include "Sheep.h"
+#include "test_string.h"
 
 using namespace std;
 
@@ -47,6 +48,7 @@ int main() {
     for(int  i = 0;i <4 ;i++)
     cout << test2.sum[i] << endl;
 */
+/* //静态方法和静态成员变量
     Sheep *p = new Sheep[10];
     Sheep s1;
     cout << Sheep::cnt << endl;
@@ -55,5 +57,9 @@ int main() {
     delete[] p;
     cout << Sheep::sheep_num() << endl;
     cout << s1.sheep_num() << endl;
+    */
+    test_string();
+
+
     return 0;
 }
